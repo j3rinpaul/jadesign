@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+}
+
+.card{
+    overflow:hidden;
+    box-shadow:0 2px 20px gray;
+    border-radius:5px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    cursor:pointer;
+    transition:transform 200ms ease-in;
+}
+.cimg{
+    height:12rem;
+    width:100%;
+    object-fit:cover;
+} 
+
+.cbody{
+    margin: 1rem;
+    flex-grow: 1;
+}
+
+.ctitle{
+    padding: 1rem;
+}
+
+.cdesc{
+    padding: 0 1rem;
+}
+
+.cbtn{
+    padding:1rem;
+    font-family:inherit;
+    font-weight:bold;
+    font-size:1rem;
+    margin:1rem;
+    border:1px solid gray;
+    background-color: transparent;
+    border-radius: 5%;
+    transition:background 200ms ease-in,color 200ms ease-in;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.cbtn:hover{
+    background-color: gray;
+    color: white;
+}
