@@ -1,6 +1,6 @@
 import Cards from "../cards/cards";
 import "./product.css"
-import port from '../assets/GBZ_wallpaper_05.png'
+
 
 import React from 'react'
 
@@ -12,6 +12,10 @@ function Product() {
         title={title} 
         desc={description here}
         btn={button here}/> */}
+     
+     
+
+
     </div>
   )
 }
